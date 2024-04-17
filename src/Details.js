@@ -1,31 +1,27 @@
 // Enter all your detials in this file
 // Logo images
-import logogradient from "./assets/logo.svg";
-import logo from "./assets/logo2.svg";
+import logogradient from "./assets/logo.png";
+import logo from "./assets/logo2.png";
 // Profile Image
-import profile from "./assets/profile.jpg";
+import profile from "./assets/profile.png";
 // Tech stack images
-import html from "./assets/techstack/html.png";
-import css from "./assets/techstack/css.png";
-import sass from "./assets/techstack/sass.png";
-import js from "./assets/techstack/js.png";
-import react from "./assets/techstack/react.png";
-import redux from "./assets/techstack/redux.png";
-import tailwind from "./assets/techstack/tailwind.png";
-import bootstrap from "./assets/techstack/bootstrap.png";
+import swift from "./assets/techstack/swift.png";
+import dart from "./assets/techstack/dart.png";
+import flutter from "./assets/techstack/flutter.png";
+import python from "./assets/techstack/python.png";
+import selenium from "./assets/techstack/selenium.png";
 import vscode from "./assets/techstack/vscode.png";
+import xcode from "./assets/techstack/xcode.png";
 import github from "./assets/techstack/github.png";
 import git from "./assets/techstack/git.png";
-import npm from "./assets/techstack/npm.png";
 import postman from "./assets/techstack/postman.png";
-import figma from "./assets/techstack/figma.png";
 // Porject Images
-import projectImage1 from "./assets/projects/project1.jpg";
-import projectImage2 from "./assets/projects/project2.jpg";
-import projectImage3 from "./assets/projects/project3.jpg";
-import projectImage4 from "./assets/projects/project4.jpg";
-import projectImage5 from "./assets/projects/project5.jpg";
-import projectImage6 from "./assets/projects/project6.jpg";
+import projectImage1 from "./assets/projects/project1.png";
+import projectImage2 from "./assets/projects/project2.png";
+import projectImage3 from "./assets/projects/project3.png";
+import projectImage4 from "./assets/projects/project4.png";
+import projectImage5 from "./assets/projects/project5.png";
+import projectImage6 from "./assets/projects/project6.png";
 
 // Logos
 export const logos = {
@@ -35,134 +31,144 @@ export const logos = {
 
 // Enter your Personal Details here
 export const personalDetails = {
-  name: "Pavan MG",
-  tagline: "I build things for web",
+  name: "Caroline Chan",
+  tagline: "A Mobile Developer and A Software QA Engineer",
   img: profile,
-  about: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`,
+  about: `Have a strong will to learn and improve my skills. Also can adapt well to a new environment and also has great communication skills. Currently working as a Mobile Developer at Pentarex Technology that specializes in RTC Technology and an iOS Developer Intern at Apple Developer Academy @IL.`,
 };
 
 // Enter your Social Media URLs here
 export const socialMediaUrl = {
-  linkdein: "https://www.linkedin.com/",
-  github: "https://www.github.com/",
-  twitter: "https://twitter.com/",
-  instagram: "https://www.instagram.com/",
+  linkdein: "www.linkedin.com/in/carolinechn",
+  github: "https://www.github.com/carolinechan17",
+  instagram: "https://www.instagram.com/c.channnn/",
 };
 
 // Enter your Work Experience here
 export const workDetails = [
   {
-    Position: "Frontend Web Developer",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
+    Position: "iOS Developer",
+    Company: `Apple Developer Academy @IL`,
+    Location: "Batam, Riau Islands, Indonesia",
+    Type: "Intern",
+    Duration: "February 2024 - Present",
+  },
+  {
+    Position: "Mobile Developer",
+    Company: `Pentarex`,
+    Location: "Remote",
     Type: "Full Time",
-    Duration: "Sep 2021 - Dec 2021",
+    Duration: "November 2023 - Present",
   },
   {
-    Position: "Internship",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
-    Type: "Internship",
-    Duration: "Sep 2021 - Dec 2021",
+    Position: "QA Engineer",
+    Company: `PT Sinergi Informatika Semen Indonesia (SISI)`,
+    Location: "Remote",
+    Type: "Freelance",
+    Duration: "January 2024 - February 2024",
   },
   {
-    Position: "Internship",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
-    Type: "Internship",
-    Duration: "Sep 2021 - Dec 2021",
+    Position: "Mobile Developer",
+    Company: `KitaLulus`,
+    Location: "Remote",
+    Type: "Intern",
+    Duration: "August 2024 - November 2024",
+  },
+  {
+    Position: "Software Development Engineer in Test",
+    Company: `KitaLulus`,
+    Location: "Remote",
+    Type: "Intern",
+    Duration: "February 2023 - July 2023",
+  },
+  {
+    Position: "QA Manual",
+    Company: `Bibit.id`,
+    Location: "Remote",
+    Type: "Intern",
+    Duration: "October 2022 - December 2022",
   },
 ];
 
 // Enter your Education Details here
 export const eduDetails = [
   {
-    Position: "Frontend Development",
-    Company: "Udemy, YouTube, Google, Medium",
-    Location: "Online",
+    Position: "Bachelor of Computer Science",
+    Company: "Universitas Gadjah Mada",
+    Location: "Yogyakarta, Indonesia",
     Type: "Full Time",
-    Duration: "Jan 2022 - Present",
+    Duration: "August 2019 - October 2023",
   },
   {
-    Position: "Bachelor in Electronics & Communication",
-    Company: `Your College Name here`,
-    Location: "Bengaluru",
+    Position: "Exchange Student",
+    Company: `National Taiwan University`,
+    Location: "Taipei, Taiwan",
     Type: "Full Time",
-    Duration: "Aug 2020 - Present",
+    Duration: "February 2022 - June 2022",
   },
 ];
 
 // Tech Stack and Tools
 export const techStackDetails = {
-  html: html,
-  css: css,
-  js: js,
-  react: react,
-  redux: redux,
-  sass: sass,
-  tailwind: tailwind,
-  bootstrap: bootstrap,
+  swift: swift,
+  dart: dart, 
+  flutter: flutter,
+  python: python,
+  selenium: selenium,
   vscode: vscode,
+  xcode: xcode,
   postman: postman,
-  npm: npm,
   git: git,
   github: github,
-  figma: figma,
 };
 
 // Enter your Project Details here
 export const projectDetails = [
   {
-    title: "Project title 1",
+    title: "Kerja+ Customer",
     image: projectImage1,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
+    description: `iOS application for employers to manage applicants that apply to their job postings build with MVVM software architecture and asynchronous networking.`,
+    techstack: "Swift, SwiftUI",
     previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    githubLink: "https://github.com/isha93/kerjapluscustomer",
   },
   {
-    title: "Project title 2",
+    title: "Camy",
     image: projectImage2,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
+    description: `Android application for educational purposes where mentor can have live stream and user can attend the live classes. This application is built with Bloc and zegocloud for RTC.`,
+    techstack: "Dart, Flutter, Firebase",
     previewLink: "https://google.com",
     githubLink: "https://github.com",
   },
   {
-    title: "Project title 3",
+    title: "Movie App",
     image: projectImage3,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
+    description: `Individual project created by utilizing free api from IMDb.com. This application is built with MVVM software architecture and asynchronous networking.`,
+    techstack: "Swift, SwiftUI",
     previewLink: "https://google.com",
     githubLink: "https://github.com",
   },
   {
-    title: "Project title 4",
+    title: "FANI",
     image: projectImage4,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
+    description: `Working on In App Purchase on both Android and iOS platform for FANI. To make this feature works, the application relied on RevenueCat as the third party.`,
+    techstack: "Dart, Flutter",
     previewLink: "https://google.com",
     githubLink: "https://github.com",
   },
   {
-    title: "Project title 5",
+    title: "KitaLulus Employer",
     image: projectImage5,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
+    description: `Working on automated UI testcases for KitaLulus Employer with Selenium Python wrapped with RobotFramework.`,
+    techstack: "Python, Selenium, RobotFramework",
     previewLink: "https://google.com",
     githubLink: "https://github.com",
   },
   {
-    title: "Project title 6",
+    title: "Kominfo Certification Platform",
     image: projectImage6,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
+    description: `Working on +3000 automated UI testcases for Kominfo Certification Platform both Website and Android with Selenium Python and Appium Pyhton.`,
+    techstack: "Python, Selenium, Appium",
     previewLink: "https://google.com",
     githubLink: "https://github.com",
   },
@@ -170,6 +176,5 @@ project lorem ipsum generator for dummy content`,
 
 // Enter your Contact Details here
 export const contactDetails = {
-  email: "hi@example.com",
-  phone: "+91 12345 67890",
+  email: "carolinechan304@gmail.com",
 };

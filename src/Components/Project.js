@@ -12,7 +12,7 @@ function Project({ title, image, description, techstack, previewLink, githubLink
         </h3>
         <div className="flex justify-between items-center mt-5">
           <div className="flex items-center">
-            <svg
+            {/* <svg
               className="stroke-dark-heading dark:stroke-white inline-block min-w-fit"
               width="20"
               height="20"
@@ -32,18 +32,18 @@ function Project({ title, image, description, techstack, previewLink, githubLink
                 strokeLinecap="round"
                 strokeLinejoin="round"
               />
-            </svg>
-            <a
+            </svg> */}
+            {/* <a
               href={previewLink}
               target="_blank"
               rel="noreferrer noopener"
               className="underline pl-2 font-light dark:text-white"
             >
               Live Preview
-            </a>
+            </a> */}
           </div>
           <div className="flex items-center">
-            <svg
+            {/* <svg
               className="dark:fill-light-heading fill-dark-heading inline-block min-w-fit"
               width="20"
               height="20"
@@ -65,7 +65,7 @@ function Project({ title, image, description, techstack, previewLink, githubLink
               className="underline pl-2 font-light dark:text-white"
             >
               View Code
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
